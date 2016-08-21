@@ -7,6 +7,6 @@ use MyCLabs\Enum\Enum;
 
 class FormElementType extends Enum
 {
-    const INPUT = 0;
-    const BUTTON = 1;
+    const Input = 0;
+    const Button = 1;
 }

@@ -12,7 +12,7 @@ class Form extends Attachment
     protected $action;
     protected $submit;
 
-    public function __construct(array $elements, $submit, Action $action)
+    public function __construct(array $elements, Action $action, string $submit = null)
     {
         $this->elements = $elements;
         $this->submit = $submit;
