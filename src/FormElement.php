@@ -15,7 +15,7 @@ class FormElement
       string $key,
       FormElementType $type,
       string $label,
-      mixed $value,
+      $value,
       FormElementOptions $options = null)
     {
         $this->key = $key;
