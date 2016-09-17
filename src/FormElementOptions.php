@@ -27,10 +27,10 @@ class FormElementOptions
 
     public function get(int $v): bool
     {
-        return $this->value & $v;
+        return ($this->value & $v) != 0;
     }
 
-    public function set(int $v): bool
+    public function set(int $v)
     {
         return $this->value | $v;
     }
